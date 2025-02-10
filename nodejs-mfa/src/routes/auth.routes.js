@@ -9,7 +9,7 @@ const router = Router();
 router.post("/register", register);
 
 // Login Route
-router.post("/login", passport.authenticate("local"), login);
+router.post("/login", passport.authenticate("local", { failureRedirect: "/login" }), login);
 
 // Auth Status Route
 router.get("/status", authStatus);
