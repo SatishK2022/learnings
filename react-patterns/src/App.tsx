@@ -1,8 +1,11 @@
 // import { useState } from "react";
 // import { useQuery } from "@tanstack/react-query";
 import "./App.css";
-import axios from "axios";
-import UserContainer from "./containers/UserContainer";
+// import axios from "axios";
+// import UserContainer from "./containers/UserContainer";
+
+import Countdown from "./components/Countdown.jsx";
+import Stopwatch from "./components/Stopwatch.jsx";
 
 function App() {
   // const [id, setId] = useState(1);
@@ -27,8 +30,12 @@ function App() {
       <button onClick={() => setId((prev) => prev - 1)}>Decrement Id</button>
       <button onClick={() => setId((prev) => prev + 1)}>Increment Id</button> */}
 
-      <h2 className="text-2xl font-semibold">Users (Container / Presentation Pattern)</h2>
-      <UserContainer />
+      {/* <h2 className="text-2xl font-semibold">Users (Container / Presentation Pattern)</h2>
+      <UserContainer /> */}
+
+      <h2 className="text-3xl font-semibold underline underline-offset-8">Custom Hook Design Pattern</h2>
+      <Stopwatch />
+      <Countdown initialSeconds={60} />
     </>
   );
 }
