@@ -3,7 +3,7 @@
 import React, { JSX } from "react";
 import { motion } from "motion/react";
 
-function Basic(): JSX.Element {
+function Button(): JSX.Element {
   return (
     <div
       className="[perspective:1000px] [transform-style:preserve-3d] w-full h-screen bg-neutral-900 flex items-center justify-center"
@@ -55,4 +55,4 @@ function Basic(): JSX.Element {
   );
 }
 
-export default Basic;
+export default Button;
