@@ -1,0 +1,50 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - My Website</title>
+  <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Get in Touch</h2>
+      <p>If you have any questions or feedback, we’d love to hear from you!</p>
+
+      <div class="contact-info">
+        <p><strong>Email:</strong> contact@mywebsite.com</p>
+        <p><strong>Phone:</strong> +1 (234) 567-8901</p>
+        <p><strong>Address:</strong> 123 Web Street, Code City, Devland</p>
+      </div>
+
+      <form>
+        <label>Name:</label>
+        <input type="text" placeholder="Your Name" required>
+
+        <label>Email:</label>
+        <input type="email" placeholder="you@example.com" required>
+
+        <label>Message:</label>
+        <textarea placeholder="Write your message here..." required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
