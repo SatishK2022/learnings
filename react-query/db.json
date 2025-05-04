@@ -1,0 +1,104 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Exploring the Mountains",
+      "author": "John Doe",
+      "content": "Last weekend, I went hiking in the Rockies. The views were breathtaking and the weather was perfect.",
+      "date": "2025-05-01T08:30:00Z",
+      "tags": ["travel", "adventure", "hiking"],
+      "likes": 120,
+      "comments": []
+    },
+    {
+      "id": "2",
+      "title": "Simple Pancake Recipe",
+      "author": "Jane Smith",
+      "content": "Here's my go-to pancake recipe. It's quick, easy, and delicious.",
+      "date": "2025-04-28T09:00:00Z",
+      "tags": ["food", "recipe", "breakfast"],
+      "likes": 95,
+      "comments": []
+    },
+    {
+      "id": "3",
+      "title": "10 Tips for Remote Work Productivity",
+      "author": "Emily Johnson",
+      "content": "Working from home can be challenging. Here are 10 tips to stay productive and focused.",
+      "date": "2025-05-02T14:00:00Z",
+      "tags": ["work", "productivity", "remote"],
+      "likes": 150,
+      "comments": []
+    },
+    {
+      "id": "4",
+      "title": "Top 5 JavaScript Frameworks in 2025",
+      "author": "Dev Guru",
+      "content": "A quick rundown of the most popular and powerful JavaScript frameworks you should learn in 2025.",
+      "date": "2025-04-27T16:45:00Z",
+      "tags": ["technology", "javascript", "programming"],
+      "likes": 200,
+      "comments": []
+    },
+    {
+      "id": "5",
+      "title": "Daily Yoga Routine",
+      "author": "Sophie Lee",
+      "content": "My 20-minute morning yoga flow to start the day with energy and calm.",
+      "date": "2025-05-03T06:30:00Z",
+      "tags": ["health", "fitness", "yoga"],
+      "likes": 80,
+      "comments": []
+    },
+    {
+      "id": "6",
+      "title": "The Future of AI",
+      "author": "Alan Turington",
+      "content": "An opinion piece on where artificial intelligence is heading in the next 10 years.",
+      "date": "2025-04-30T11:15:00Z",
+      "tags": ["AI", "technology", "future"],
+      "likes": 300,
+      "comments": []
+    },
+    {
+      "id": "7",
+      "title": "How to Grow Indoor Plants",
+      "author": "GardenGal92",
+      "content": "A guide for beginners on caring for houseplants, including light, water, and soil tips.",
+      "date": "2025-05-01T10:00:00Z",
+      "tags": ["gardening", "home", "plants"],
+      "likes": 110,
+      "comments": []
+    },
+    {
+      "id": "8",
+      "title": "Weekend in Paris",
+      "author": "TravelBug",
+      "content": "A photo diary and travel guide for a perfect 2-day trip to Paris.",
+      "date": "2025-04-26T18:20:00Z",
+      "tags": ["travel", "europe", "paris"],
+      "likes": 175,
+      "comments": []
+    },
+    {
+      "id": "9",
+      "title": "Budgeting Tips for Students",
+      "author": "FinanceNerd",
+      "content": "Managing your money while in college is tough. Here's how to budget and save smartly.",
+      "date": "2025-05-02T13:00:00Z",
+      "tags": ["finance", "students", "budget"],
+      "likes": 90,
+      "comments": []
+    },
+    {
+      "id": "10",
+      "title": "Photography Basics: ISO, Shutter, Aperture",
+      "author": "LensWizard",
+      "content": "Understand the exposure triangle and how to take control of your camera.",
+      "date": "2025-04-29T17:40:00Z",
+      "tags": ["photography", "camera", "tutorial"],
+      "likes": 135,
+      "comments": []
+    }
+  ]
+}
