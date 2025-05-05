@@ -2,6 +2,7 @@ import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import React from "react";
 import { Link } from "react-router-dom";
+import AddPost from "./AddPost";
 
 const Posts = () => {
   const {
@@ -40,16 +41,20 @@ const Posts = () => {
 
   return (
     <div className="min-h-screen bg-gray-900 text-white px-6 py-10">
-      <div className="flex flex-col items-center mb-5">
-        <h1 className="text-3xl md:text-4xl font-bold mb-8 text-center">
-          Latest Posts
-        </h1>
+      {/* <div className="w-full flex flex-col items-center justify-between mb-5">
+        <h1 className="text-3xl md:text-4xl font-bold mb-8">Latest Posts</h1>
         <button
           className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded cursor-pointer"
           onClick={refetch}
         >
           Fetch Posts
         </button>
+      </div> */}
+      <div className="w-full flex items-center justify-between mb-5">
+        <h1 className="text-3xl md:text-4xl font-bold mb-4 md:mb-0 text-left w-full md:w-auto">
+          Latest Posts
+        </h1>
+        <AddPost />
       </div>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {posts?.map((post) => (
